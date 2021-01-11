@@ -278,3 +278,31 @@ img {
     margin: 20px 10px;
 }
 
+.qualidade-item h2 {
+    font-size: 2.25em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+.qualidade-item h2::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: blue;
+}
+
+/*Newsletter*/
+
+.newslatter {
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newslatter-info {
+    flex: 1 1 260;
+    margin: 0 10px;
+}
