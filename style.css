@@ -256,6 +256,25 @@ img {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .preco .preco-item:nth-child()
+    .preco .preco-item:nth-child(3) {
+        order: -2;
+    }
+    .preco .preco-item:nth-child(2) {
+        order: -1;
+    }
+}
+
+/*Qualidade*/
+
+.qualidade {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualidade-item {
+    flex: 1 1 300px;
+    margin: 20px 10px;
 }
 
