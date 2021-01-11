@@ -256,5 +256,6 @@ img {
         padding-left: 10px;
         padding-right: 10px;
     }
+    .preco .preco-item:nth-child()
 }
 
